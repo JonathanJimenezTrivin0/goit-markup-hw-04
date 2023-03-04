@@ -439,6 +439,7 @@ address {
   display: flex;
   justify-content: center;
   gap: 30px;
+  position: relative;
 }
 
 .icon-section-footer > svg path {
@@ -456,8 +457,8 @@ address {
   font-size: 14px;
   line-height: 16px;
   position: absolute;
-  left: 35%;
-  margin-top: -2.5%;
+  left: 37%;
+  margin-top: -5%;
 }
 
 .icon-section.clientes > svg:hover {
