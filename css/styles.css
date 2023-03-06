@@ -128,9 +128,10 @@ ul {
 
 .foto-principal {
   background-image: url(../images/imágen\ de\ fondo.jpg);
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-repeat: no-repeat;
 }
 
 .boton-Titulo-Principal {
