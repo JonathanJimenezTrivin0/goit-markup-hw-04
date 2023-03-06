@@ -1,189 +1,3 @@
-* {
-  font-family: 'Roboto', sans-serif;
-}
-
-ul {
-  list-style: none;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.container-portfolio {
-  width: 1600px;
-  /* width: 1200px; */
-  margin: 0 auto;
-}
-
-.nombre_Studio {
-  color: #2196f3;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-}
-
-.titulo_principal {
-  color: #ffffff;
-  /* width: 1600px; */
-  height: 600px;
-  font-size: 44px;
-  background-color: rgba(47, 48, 58, 0.4);
-}
-
-.foto-principal {
-  /* width: 1600px; */
-  height: 600px;
-  background-image: url(../images/imágen\ de\ fondo.jpg);
-  background-attachment: fixed;
-}
-
-.boton-Titulo-Principal {
-  color: #ffffff;
-  background-color: #2196f3;
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  position: absolute;
-  margin-top: 190px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-}
-
-.onHover-link {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
-.onHover-link.current {
-  color: #757575;
-}
-
-.onHover-link:hover,
-.onHover-link:focus {
-  color: #2196f3;
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: #2196f3;
-}
-
-.header-link.current {
-  color: #2196f3;
-}
-
-.header-link {
-  color: #212121;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-.subtitulos {
-  color: #212121;
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  margin-top: 20px;
-}
-
-.subparrafos {
-  color: #757575;
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  margin-top: 10px;
-}
-
-.titulos-secundarios {
-  color: #212121;
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-}
-
-.titulos-secundarios {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: -20%;
-}
-
-/* Footer */
-.container-footer {
-  height: 252px;
-  padding: 50px 13%;
-  background: #2f303a;
-}
-
-.letras-pie-pagina {
-  color: #2196f3;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-}
-
-.pie-de-pagina {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2258px;
-}
-
-.datos-contacto {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
-  margin: auto;
-  margin-left: -40px;
-}
-
-.boton-Titulo-Principal-Portafolio {
-  color: #212121;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  padding: 10px 32px;
-  border: none;
-  cursor: pointer;
-}
-
-.boton-Titulo-Principal-Portafolio:hover,
-.boton-Titulo-Principal-Portafolio:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-
 /* Clases Normalize */
 
 h1,
@@ -227,14 +41,234 @@ address {
   margin: 0;
 }
 
+/* Estilos generales */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.item {
+  flex-basis: calc((100% - 30px) / 4);
+  padding: 10px;
+}
+/* Estilos header */
+.nombre_Studio {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.header-link {
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.header-link.current {
+  color: #2196f3;
+}
+
+.onHover-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.onHover-link.current {
+  color: #757575;
+}
+
+.onHover-link:hover,
+.onHover-link:focus {
+  color: #2196f3;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
+/* Estilos main */
+.titulo_principal {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  font-size: 44px;
+  max-width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.foto-principal {
+  background-image: url(../images/imágen\ de\ fondo.jpg);
+  /* background-attachment: fixed; */
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.boton-Titulo-Principal {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  margin: 0 auto;
+}
+
+.subtitulos {
+  color: #212121;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.subparrafos {
+  color: #757575;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.titulos-secundarios {
+  color: #212121;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.titulos-secundarios {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -20%;
+}
+.item-productos {
+  flex-basis: calc((100% - 20px) / 3);
+  padding: 10px;
+}
+.card-productos {
+  width: 370px;
+  height: 294px;
+  background-image: url(../images/computador.jpg);
+}
+
+.card-productos-dos {
+  width: 370px;
+  height: 294px;
+  background-image: url(../images/celular.jpg);
+}
+
+.card-productos-tres {
+  width: 370px;
+  height: 294px;
+  background-image: url(../images/tablet.jpg);
+}
+
+/* Footer */
+.container-footer {
+  background: #2f303a;
+}
+.direction-footer {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.letras-pie-pagina {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.pie-de-pagina {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.datos-contacto {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  margin-left: -40px;
+}
+
+.boton-Titulo-Principal-Portafolio {
+  color: #212121;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.boton-Titulo-Principal-Portafolio:hover,
+.boton-Titulo-Principal-Portafolio:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 /* Estilos FLex */
 
 .main-navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  height: 70px;
 }
 
 .header-navigation {
@@ -257,45 +291,26 @@ address {
   text-decoration: none;
 }
 
-.portfolio-navigation {
+.caracteristicas-servicio {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-}
-
-.titulo_principal {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
-
-.caracteristicas-ser {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .equipo {
   color: #212121;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: -20%;
+  margin-top: -2%;
 }
 
 .cards-container {
-  height: 580px;
   background-color: #f5f4fa;
-  padding: 100px 20vh;
   display: flex;
-  justify-content: space-around;
-  gap: 2rem;
+  justify-content: center;
   position: relative;
 }
 
@@ -316,9 +331,8 @@ address {
 
 .card {
   width: 270px;
-  height: 350px;
+  height: 368px;
   background: #ffffff;
-  align-items: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -352,21 +366,30 @@ address {
   width: 100%;
   height: 100%;
   background-color: #ffffff;
-  padding: 100px 20vh;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
 }
 
+.portfolio-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.portfolio-navigation-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item-cards {
+  flex-basis: calc((100% - 10px) / 3);
+  padding: 10px;
+}
 .card-portfolio {
   margin-top: 30px;
   width: 370px;
   height: 404px;
   background: #ffffff;
-  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px; */
   cursor: pointer;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -384,38 +407,10 @@ address {
   cursor: pointer;
 }
 
-.caracteristicas-servicio {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 50px;
-}
-
 .catalogo-productos {
-  margin-top: 190px;
-  margin-bottom: 90px;
   display: flex;
   justify-content: center;
-  gap: 2rem;
   position: relative;
-}
-
-.card-productos {
-  width: 370px;
-  height: 294px;
-  background-image: url(../images/computador.jpg);
-}
-
-.card-productos-dos {
-  width: 370px;
-  height: 294px;
-  background-image: url(../images/celular.jpg);
-}
-
-.card-productos-tres {
-  width: 370px;
-  height: 294px;
-  background-image: url(../images/tablet.jpg);
 }
 
 .card-footer-productos {
