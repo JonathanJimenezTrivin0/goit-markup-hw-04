@@ -19,12 +19,14 @@
   </head>
   <body>
     <!-- Main navigation portfolio -->
-    <header>
+    <header class="header-portfolio">
       <div class="container">
         <nav class="main-navigation container">
           <a href="./index.html" class="nombre_Studio">WebStudio</a>
           <ul class="header-navigation list">
-            <li><a href="./index.html" class="header-link link">Estudio</a></li>
+            <li>
+              <a href="./index.html" class="header-link link">Estudio</a>
+            </li>
             <li>
               <a href="./portfolio.html" class="header-link link current"
                 >Portafolio</a
@@ -32,28 +34,28 @@
             </li>
             <li><a href="#" class="header-link link">Contactos</a></li>
           </ul>
-          <ul class="header-contact link">
-            <li class="tel-contact pr-2 icon-contact">
-              <a
-                href="mailto:info@devstudio.com"
-                class="onHover-link link current"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="icon-contact">
-              <a href="tel:+525555296000" class="onHover-link link current"
-                >+525555296000</a
-              >
-            </li>
-          </ul>
         </nav>
+        <ul class="header-contact list">
+          <li class="pr-2">
+            <a
+              href="mailto:info@devstudio.com"
+              class="onHover-link link current"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="icon-contact">
+            <a href="tel:+525555296000" class="onHover-link link current"
+              >+525555296000</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
 
     <main>
       <!-- Botones navegación portfolio -->
-      <section class="container">
-        <ul class="portfolio-navigation">
+      <section class="section">
+        <ul class="portfolio-navigation list">
           <li>
             <button type="button" class="boton-Titulo-Principal-Portafolio">
               Todo
@@ -82,7 +84,7 @@
         </ul>
       </section>
       <!-- Cards portfolio -->
-      <section class="portfolio-navigation-card cards section container">
+      <section class="portfolio-navigation section container">
         <ul class="portfolio-navigation-card list">
           <li class="item-cards">
             <div class="card-portfolio">

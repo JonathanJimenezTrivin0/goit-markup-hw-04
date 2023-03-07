@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Main navigation -->
-    <header class="container">
+    <header>
       <div class="container">
         <nav class="main-navigation container">
           <a href="./index.html" class="nombre_Studio">WebStudio</a>
@@ -34,21 +34,21 @@
             </li>
             <li><a href="#" class="header-link link">Contactos</a></li>
           </ul>
-          <ul class="header-contact">
-            <li class="tel-contact pr-2 icon-contact">
-              <a
-                href="mailto:info@devstudio.com"
-                class="onHover-link link current"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="icon-contact">
-              <a href="tel:+525555296000" class="onHover-link link current"
-                >+525555296000</a
-              >
-            </li>
-          </ul>
         </nav>
+        <ul class="header-contact list">
+          <li class="pr-2">
+            <a
+              href="mailto:info@devstudio.com"
+              class="onHover-link link current"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="icon-contact">
+            <a href="tel:+525555296000" class="onHover-link link current"
+              >+525555296000</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -63,8 +63,8 @@
       </section>
 
       <!-- Caracteristicas servicios -->
-      <section class="container section">
-        <div class="">
+      <section class="section">
+        <div class="container">
           <ul class="caracteristicas-servicio list">
             <li class="item">
               <h3 class="subtitulos">Atención a los detalles</h3>
@@ -104,76 +104,80 @@
 
       <!-- A que se dedica la empresa, servicios-->
       <section class="catalogo-productos container section">
-        <h2 class="titulos-secundarios">A qué nos dedicamos</h2>
-        <ul class="catalogo-productos list">
-          <li class="item-productos">
-            <div class="card-productos">
-              <div class="card-footer-productos">
-                <span> APLICACIONES DE ESCRITORIO</span>
+        <div class="container">
+          <h2 class="titulos-secundarios">A qué nos dedicamos</h2>
+          <ul class="catalogo-productos list">
+            <li class="item-productos">
+              <div class="card-productos">
+                <div class="card-footer-productos">
+                  <p>APLICACIONES DE ESCRITORIO</p>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="item-productos">
-            <div class="card-productos-dos">
-              <div class="card-footer-productos">
-                <span> APLICACIONES MÓVILES</span>
+            </li>
+            <li class="item-productos">
+              <div class="card-productos-dos">
+                <div class="card-footer-productos">
+                  <p>APLICACIONES MÓVILES</p>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="item-productos">
-            <div class="card-productos-tres">
-              <div class="card-footer-productos">
-                <span>SOLUCIONES DE DISEÑO </span>
+            </li>
+            <li class="item-productos">
+              <div class="card-productos-tres">
+                <div class="card-footer-productos">
+                  <p>SOLUCIONES DE DISEÑO</p>
+                </div>
               </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Personas que conforman el equipo de la empresa -->
       <section class="cards-container section">
-        <h2 class="equipo">Nuestro Equipo</h2>
-        <ul class="cards-container list">
-          <li class="item">
-            <div class="card">
-              <img src="images/imagen 1.jpg" alt="equipo1" />
-              <div class="card-footer">
-                <h2 class="nombre-integrantes">Andres Cubo</h2>
-                <p class="subparrafos">Diseñador de productos</p>
-                <div class="icon-section"></div>
+        <div class="container">
+          <h2 class="equipo">Nuestro Equipo</h2>
+          <ul class="cards-container list">
+            <li class="item">
+              <div class="card">
+                <img src="images/imagen 1.jpg" alt="equipo1" />
+                <div class="card-footer">
+                  <h2 class="nombre-integrantes">Andres Cubo</h2>
+                  <p class="subparrafos">Diseñador de productos</p>
+                  <div class="icon-section"></div>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="item">
-            <div class="card">
-              <img src="images/imagen 2.jpg" alt="equipo2" />
-              <div class="card-footer">
-                <h2 class="nombre-integrantes">Carla Palacios</h2>
-                <p class="subparrafos">Desarrolladora Frontend</p>
-                <div class="icon-section"></div>
+            </li>
+            <li class="item">
+              <div class="card">
+                <img src="images/imagen 2.jpg" alt="equipo2" />
+                <div class="card-footer">
+                  <h2 class="nombre-integrantes">Carla Palacios</h2>
+                  <p class="subparrafos">Desarrolladora Frontend</p>
+                  <div class="icon-section"></div>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="item">
-            <div class="card">
-              <img src="images/imagen 4.jpg" alt="equipo4" />
-              <div class="card-footer">
-                <h2 class="nombre-integrantes">Mario Dorado</h2>
-                <p class="subparrafos">Marketing</p>
-                <div class="icon-section"></div>
+            </li>
+            <li class="item">
+              <div class="card">
+                <img src="images/imagen 4.jpg" alt="equipo4" />
+                <div class="card-footer">
+                  <h2 class="nombre-integrantes">Mario Dorado</h2>
+                  <p class="subparrafos">Marketing</p>
+                  <div class="icon-section"></div>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="item">
-            <div class="card">
-              <img src="images/imagen 3.jpg" alt="equipo3" />
-              <div class="card-footer">
-                <h2 class="nombre-integrantes">Pablo Mijangos</h2>
-                <p class="subparrafos">Diseñador IU</p>
-                <div class="icon-section"></div>
+            </li>
+            <li class="item">
+              <div class="card">
+                <img src="images/imagen 3.jpg" alt="equipo3" />
+                <div class="card-footer">
+                  <h2 class="nombre-integrantes">Pablo Mijangos</h2>
+                  <p class="subparrafos">Diseñador IU</p>
+                  <div class="icon-section"></div>
+                </div>
               </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Clientes regulares -->
       <section class="icon-section clientes container">
