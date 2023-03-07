@@ -285,7 +285,11 @@ ul {
 .header-contact {
   display: flex;
   justify-content: flex-end;
-  flex-direction: row;
+  align-items: center;
+}
+
+.header-contact-tel {
+  display: flex;
 }
 
 .pr-2 {
@@ -383,6 +387,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 50px;
 }
 .portfolio-navigation-card {
   display: flex;
