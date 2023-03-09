@@ -469,10 +469,13 @@ ul {
   cursor: pointer;
 }
 
-.icon-cregulares > :hover {
-  fill: #2196f3;
+.icon-cregulares > li:hover {
   border: 2px solid #2196f3;
   border-radius: 4px;
+}
+
+.icon-cregulares > li {
+  border: 2px solid #afb1b8;
 }
 
 .clientes-regulares {
