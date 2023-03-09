@@ -441,36 +441,57 @@ ul {
   top: 80%;
 }
 
-.icon-section-footer {
-  width: 68%;
+/* Stilos icon */
+
+.icon {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  position: relative;
-}
-
-.icon-section-footer > svg path {
-  fill: #ffffff;
-}
-
-.icon-section-footer > svg {
+  gap: 2rem;
+  fill: #afb1b8;
+  width: 1em;
+  height: 2em;
   cursor: pointer;
 }
 
-.icon-text {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  position: absolute;
-  left: 37%;
-  margin-top: -5%;
+.icon:hover {
+  fill: #ffffff;
 }
 
-.icon-section.clientes > svg:hover {
-  border: 1.5px solid #2196f3;
-  border-radius: 6px;
+.circle:hover {
+  border-radius: 50%;
+  background-color: #2196f3;
+}
+
+.icon-cregulares {
+  display: flex;
+  justify-content: space-around;
+  fill: #afb1b8;
+  cursor: pointer;
+}
+
+.icon-cregulares > :hover {
+  fill: #2196f3;
+  border: 2px solid #2196f3;
+  border-radius: 4px;
+}
+
+.clientes-regulares {
+  color: #212121;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.icon-caracteristicas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-contact {
+  display: flex;
+  cursor: pointer;
 }
 
 .icon-section.clientes {
@@ -481,20 +502,6 @@ ul {
   flex-direction: row;
   align-items: center;
   position: relative;
-}
-.equipo.clientes {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: -20%;
-}
-
-.icon-servicios {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 70px;
 }
 
 .icon-contact > svg:hover path {
