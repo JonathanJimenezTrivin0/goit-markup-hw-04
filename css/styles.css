@@ -227,9 +227,23 @@ ul {
   background-image: url(../images/tablet.jpg);
 }
 
+.icon-list {
+  display: flex;
+}
+
 /* Footer */
+.logo-footer {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+
 .container-footer {
   background: #2f303a;
+  padding: 60px;
 }
 .direction-footer {
   color: #ffffff;
@@ -298,6 +312,7 @@ ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-left: auto;
 }
 
 .header-contact-tel {
@@ -307,7 +322,7 @@ ul {
 .caracteristicas-servicio {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 10px;
 }
 
 .equipo {
@@ -464,29 +479,31 @@ ul {
 .icon-cregulares {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: center;
   fill: #afb1b8;
   cursor: pointer;
   width: 170px;
   height: 81px;
+  border: 2px solid #afb1b8;
 }
 
 .item-clientes-regulares {
-  flex-basis: calc((100% - 30px) / 6);
-}
-
-.icon-cregulares > li:hover {
-  border: 2px solid #2196f3;
-  border-radius: 4px;
+  flex-basis: calc((100% - 150px) / 6);
 }
 
 .icon-cregulares:hover {
   fill: #2196f3;
+  border: 2px solid #2196f3;
 }
 
-.icon-cregulares > li {
-  border: 2px solid #afb1b8;
+.icon-cregulares {
+  color: #212121;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 44px;
 }
 
 .clientes-regulares {
@@ -496,7 +513,13 @@ ul {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  padding-bottom: 44px;
+  margin-bottom: 44px;
+}
+
+.list-clientes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .icon-caracteristicas {
@@ -545,6 +568,8 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  display: flex;
+  align-content: center;
 }
 
 .footer-contact {
@@ -554,4 +579,12 @@ ul {
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.list-icon-footer {
+  display: flex;
+}
+
+.icon-text-footer {
+  margin-left: 250px;
 }
