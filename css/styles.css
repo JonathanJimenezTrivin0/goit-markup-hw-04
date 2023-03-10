@@ -158,7 +158,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  text-transform: uppercase;
+  padding-top: 30px;
 }
 
 .subparrafos {
@@ -232,12 +232,12 @@ ul {
 
 .pie-de-pagina {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  position: relative;
 }
 
 .datos-contacto {
@@ -303,6 +303,7 @@ ul {
 .caracteristicas-servicio {
   display: flex;
   justify-content: center;
+  gap: 1rem;
 }
 
 .equipo {
@@ -324,24 +325,9 @@ ul {
   position: relative;
 }
 
-.icon-section {
-  width: 90%;
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.icon-section > svg:hover path {
-  fill: #2196f3;
-}
-
-.icon-section > svg {
-  cursor: pointer;
-}
-
 .card {
   width: 270px;
-  height: 368px;
+  height: 400px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -449,7 +435,7 @@ ul {
   gap: 2rem;
   fill: #afb1b8;
   width: 1em;
-  height: 2em;
+  height: 4em;
   cursor: pointer;
 }
 
@@ -474,6 +460,10 @@ ul {
   border-radius: 4px;
 }
 
+.icon-cregulares:hover {
+  fill: #2196f3;
+}
+
 .icon-cregulares > li {
   border: 2px solid #afb1b8;
 }
@@ -490,6 +480,10 @@ ul {
 .icon-caracteristicas {
   display: flex;
   justify-content: space-around;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
 }
 
 .icon-contact {
@@ -507,7 +501,29 @@ ul {
   position: relative;
 }
 
-.icon-contact > svg:hover path {
-  fill: #2196f3;
+/* icon footer */
+.icon-footer {
+  position: absolute;
+  display: flex;
+  gap: 2rem;
+  fill: #ffffff;
   cursor: pointer;
+  padding: 1px;
+}
+.encuentranos-footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  margin-top: -3%;
+}
+.p-footer {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 12px;
 }
