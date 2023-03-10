@@ -63,27 +63,45 @@ ul {
 
 .item {
   flex-basis: calc((100% - 30px) / 4);
-  /* padding: 10px; */
 }
 /* Estilos header */
+
 .nombre_Studio {
   color: #2196f3;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* padding-top: 34px;
-  padding-bottom: 35px; */
+  text-decoration: none;
+  padding-bottom: 25px;
+  padding-top: 24px;
+  margin-right: 93px;
+}
+
+.lista-header {
+  margin-right: 50px;
+}
+
+.lista-header:not(:last-child) {
+  margin-right: 50px;
+}
+
+.lista-contact {
+  margin-right: 30px;
+}
+
+.lista-contact:not(:last-child) {
+  margin-right: 30px;
 }
 
 .header-link {
   color: #212121;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .header-link.current {
@@ -92,11 +110,13 @@ ul {
 
 .onHover-link {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .onHover-link.current {
@@ -214,7 +234,6 @@ ul {
 .direction-footer {
   color: #ffffff;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -242,12 +261,10 @@ ul {
 
 .datos-contacto {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
-  margin: auto;
-  margin-left: -40px;
+  padding-top: 6px;
 }
 
 .boton-Titulo-Principal-Portafolio {
@@ -270,16 +287,11 @@ ul {
 .main-navigation {
   display: flex;
   align-items: center;
-  padding-top: 34px;
-  padding-bottom: 35px;
 }
 
 .header-navigation {
-  width: 400px;
   display: flex;
   justify-content: space-evenly;
-  /* padding-top: 34px;
-  padding-bottom: 35px; */
 }
 
 .header-contact {
@@ -290,14 +302,6 @@ ul {
 
 .header-contact-tel {
   display: flex;
-}
-
-.pr-2 {
-  padding-right: 3rem;
-}
-
-.nombre_Studio {
-  text-decoration: none;
 }
 
 .caracteristicas-servicio {
@@ -374,6 +378,7 @@ ul {
   justify-content: center;
   gap: 1rem;
   margin-bottom: 50px;
+  border-radius: 4px;
 }
 .portfolio-navigation-card {
   display: flex;
@@ -431,12 +436,20 @@ ul {
 
 .icon {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
   fill: #afb1b8;
-  width: 1em;
-  height: 4em;
+  width: 44px;
+  height: 44px;
   cursor: pointer;
+}
+
+.icon-contact {
+  margin-right: 10px;
+}
+
+.icon-contact:hover {
+  fill: #2196f3;
 }
 
 .icon:hover {
@@ -450,9 +463,17 @@ ul {
 
 .icon-cregulares {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
   fill: #afb1b8;
   cursor: pointer;
+  width: 170px;
+  height: 81px;
+}
+
+.item-clientes-regulares {
+  flex-basis: calc((100% - 30px) / 6);
 }
 
 .icon-cregulares > li:hover {
@@ -475,11 +496,13 @@ ul {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  padding-bottom: 44px;
 }
 
 .icon-caracteristicas {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   border-radius: 4px;
   background-color: #f5f4fa;
   width: 270px;
@@ -498,27 +521,37 @@ ul {
 
 /* icon footer */
 .icon-footer {
-  position: absolute;
-  display: flex;
-  gap: 2rem;
-  fill: #ffffff;
-  cursor: pointer;
-  padding: 1px;
-}
-.encuentranos-footer {
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  margin-top: -3%;
+  align-items: center;
+  fill: #ffffff;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
 }
+
+.icons-footer {
+  padding-left: 30%;
+}
+
+.icon-footer > li {
+  border-radius: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .p-footer {
   color: #ffffff;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  padding: 12px;
+}
+
+.footer-contact {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }

@@ -24,28 +24,34 @@
         <nav class="main-navigation container">
           <a href="./index.html" class="nombre_Studio">WebStudio</a>
           <ul class="header-navigation list">
-            <li>
+            <li class="lista-header">
               <a href="./index.html" class="header-link link">Estudio</a>
             </li>
-            <li>
+            <li class="lista-header">
               <a href="./portfolio.html" class="header-link link current"
-                >Portafolio</a
-              >
+                >Portafolio
+              </a>
             </li>
             <li><a href="#" class="header-link link">Contactos</a></li>
           </ul>
         </nav>
         <ul class="header-contact list">
-          <li class="pr-2">
+          <li class="lista-contact">
             <a
-              href="mailto:info@devstudio.com"
+              href="mailto:info@devstudio.com "
               class="onHover-link link current"
-              >info@devstudio.com</a
-            >
+              ><svg class="icon-contact" width="16" height="12">
+                <use href="./icons.svg#mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
-          <li class="icon-contact">
+          <li>
             <a href="tel:+525555296000" class="onHover-link link current"
-              >+525555296000</a
+              ><svg class="icon-contact" width="10" height="16">
+                <use href="./icons.svg#smartphone"></use>
+              </svg>
+              +525555296000</a
             >
           </li>
         </ul>
@@ -181,7 +187,8 @@
       <div class="pie-de-pagina container">
         <a href="./index.html" class="nombre_Studio">WebStudio</a>
         <address>
-          <ul class="datos-contacto">
+          <div class="container"></div>
+          <ul class="datos-contacto list">
             <li class="direction-footer">
               <a
                 href="Calz. Ticomán 500, Ciudad de <br />
@@ -192,40 +199,46 @@
               >
             </li>
             <li>
-              <a
-                href="mailto:info@devstudio.com"
-                class="onHover-link link current"
+              <a href="mailto:info@devstudio.com" class="footer-contact"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a href="tel:+525555296000" class="onHover-link link current"
+              <a href="tel:+525555296000" class="footer-contact"
                 >+525555296000</a
               >
             </li>
           </ul>
-          <div class="container encuentranos-footer">
+          <div class="icons-footer">
             <p class="p-footer">ENCUENTRANOS EN</p>
             <ul class="icon-footer list">
-              <li class="circle">
-                <svg class="circle" width="20px" heigth="20px">
-                  <use href="./icons.svg#instagram "></use>
-                </svg>
+              <li>
+                <a href="#" class="icon-footer circle">
+                  <svg width="20" height="20">
+                    <use href="./icons.svg#instagram "></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <svg class="circle" width="20px" heigth="20px">
-                  <use href="./icons.svg#twitter"></use>
-                </svg>
+                <a href="#" class="icon-footer circle">
+                  <svg width="20" height="20">
+                    <use href="./icons.svg#twitter"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <svg class="circle" width="20px" heigth="20px">
-                  <use href="./icons.svg#facebook"></use>
-                </svg>
+                <a href="#" class="icon-footer circle">
+                  <svg width="20" height="20">
+                    <use href="./icons.svg#facebook"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <svg class="circle" width="20px" heigth="20px">
-                  <use href="./icons.svg#linkedin"></use>
-                </svg>
+                <a href="#" class="icon-footer circle">
+                  <svg width="20" height="20">
+                    <use href="./icons.svg#linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
