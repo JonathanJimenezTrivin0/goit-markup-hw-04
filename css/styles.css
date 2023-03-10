@@ -486,11 +486,6 @@ ul {
   height: 120px;
 }
 
-.icon-contact {
-  display: flex;
-  cursor: pointer;
-}
-
 .icon-section.clientes {
   width: 1200px;
   top: 20px;
