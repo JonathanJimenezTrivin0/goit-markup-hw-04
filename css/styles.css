@@ -567,7 +567,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   display: flex;
-  align-content: center;
+  justify-content: center;
 }
 
 .footer-contact {
@@ -581,8 +581,16 @@ ul {
 
 .list-icon-footer {
   display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.list-icon-footer > li {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .icon-text-footer {
-  margin-left: 40px;
+  margin-top: 10px;
+  margin-left: 140px;
 }
