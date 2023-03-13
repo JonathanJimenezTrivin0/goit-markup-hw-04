@@ -178,7 +178,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .subparrafos {
@@ -199,11 +199,9 @@ ul {
 }
 
 .titulos-secundarios {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: -20%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .item-productos {
   flex-basis: calc((100% - 20px) / 3);
@@ -329,10 +327,9 @@ ul {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: -2%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .cards-container {
@@ -340,7 +337,6 @@ ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  position: relative;
 }
 
 .card {
@@ -432,7 +428,6 @@ ul {
 .catalogo-productos {
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .card-footer-productos {
@@ -507,7 +502,6 @@ ul {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  margin-bottom: 44px;
 }
 
 .clientes-regulares {
