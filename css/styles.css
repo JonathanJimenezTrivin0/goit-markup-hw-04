@@ -62,7 +62,7 @@ ul {
 }
 
 .item {
-  flex-basis: calc((100% - 30px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 /* Estilos header */
 
@@ -88,6 +88,10 @@ ul {
 
 .lista-contact {
   margin-right: 30px;
+}
+
+.lista-contact:hover {
+  fill: #2196f3;
 }
 
 .lista-contact:not(:last-child) {
@@ -154,6 +158,7 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .boton-Titulo-Principal {
@@ -204,25 +209,11 @@ ul {
   margin-bottom: 50px;
 }
 .item-productos {
-  flex-basis: calc((100% - 20px) / 3);
-  padding: 10px;
+  flex-basis: calc((100% - 150px) / 6);
 }
 .card-productos {
   width: 370px;
   height: 294px;
-  background-image: url(../images/computador.jpg);
-}
-
-.card-productos-dos {
-  width: 370px;
-  height: 294px;
-  background-image: url(../images/celular.jpg);
-}
-
-.card-productos-tres {
-  width: 370px;
-  height: 294px;
-  background-image: url(../images/tablet.jpg);
 }
 
 .icon-list {
@@ -339,6 +330,7 @@ ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .card {
@@ -393,7 +385,8 @@ ul {
 .portfolio-navigation {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-bottom: 50px;
   border-radius: 4px;
 }
@@ -401,11 +394,11 @@ ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .item-cards {
-  flex-basis: calc((100% - 10px) / 3);
-  padding: 10px;
+  flex-basis: calc((100% - 90px) / 4);
 }
 .card-portfolio {
   width: 370px;
@@ -433,6 +426,8 @@ ul {
 .catalogo-productos {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .card-footer-productos {
@@ -442,13 +437,12 @@ ul {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  letter-spacing: 0.03em;
   width: 370px;
   height: 60px;
   padding: 20px;
   background-color: rgba(47, 48, 58, 0.8);
   position: relative;
-  top: 80%;
+  top: -20%;
 }
 
 /* Stilos icon */
@@ -465,10 +459,6 @@ ul {
 
 .icon-contact {
   margin-right: 10px;
-}
-
-.icon-contact:hover {
-  fill: #2196f3;
 }
 
 .icon:hover {
