@@ -209,7 +209,7 @@ ul {
   margin-bottom: 50px;
 }
 .item-productos {
-  flex-basis: calc((100% - 150px) / 6);
+  flex-basis: calc((100% - 90px) / 3);
 }
 .card-productos {
   width: 370px;
@@ -312,7 +312,7 @@ ul {
 .caracteristicas-servicio {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
 }
 
 .equipo {
@@ -398,7 +398,7 @@ ul {
 }
 
 .item-cards {
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 60px) / 4);
 }
 .card-portfolio {
   width: 370px;
